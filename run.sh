@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/lib/jvm/java-8-oracle/bin/java -Dfile.encoding=UTF-8 -classpath ./target/classes:./lib/simmetrics-core-3.2.1.jar:./lib/guava-18.0.jar:./lib/commons-codec-1.10.jar:./lib/junit-4.12.jar:./lib/hamcrest-core-1.3.jar:./lib/slf4j-api-1.7.12.jar:./lib/logback-access-1.1.3.jar:./lib/logback-core-1.1.3.jar:./lib/logback-classic-1.1.3.jar:./lib/sqlite-jdbc-3.8.11.1.jar:./lib/junidecode-0.1.1.jar:./lib/commons-io-1.3.2.jar:./lib/commons-csv-1.2.jar com.cotrino.langnet.GenerateComparison
